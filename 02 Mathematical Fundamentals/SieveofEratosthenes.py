@@ -19,3 +19,5 @@ for i in range(t):
         if sieve[j]:
             print(j, end=" ")
     print()
+
+# Output: Please enter a number how many input you give : 3
