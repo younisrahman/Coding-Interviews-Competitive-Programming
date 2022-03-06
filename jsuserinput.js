@@ -1,4 +1,21 @@
-let data = process.stdin.on('data', (data) => {
-  return data.toString();
-});
-console.log(data);
+/**
+ *   A line of code that prints "Hello, World!" on a new line is provided in the editor.
+ *   Write a second line of code that prints the contents of 'parameterVariable' on a new line.
+ *
+ *	Parameter:
+ *   parameterVariable - A string of text.
+ **/
+function greeting(parameterVariable) {
+  // This line prints 'Hello, World!' to the console:
+  console.log('Hello, World!');
+
+  // Write a line of code that prints parameterVariable to stdout using console.log:
+}
+
+function main() {
+  const parameterVariable = readLine();
+
+  greeting(parameterVariable);
+}
+
+console.log('Hello, World!');
