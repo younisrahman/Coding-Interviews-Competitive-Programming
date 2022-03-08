@@ -12,10 +12,17 @@ const primecheck = (number) => {
   if (number <= 2) {
     return true;
   }
-  for (let i = 2; i < number; i++) {
+  // time complexity O(sqt(n))
+  for (let i = 2; i < Math.sqrt(number); i++) {
     if (number % i == 0) {
       return false;
     }
   }
+  // for (let i = 2; i < number; i++) { // time complexity O(n)
+  //   if (number % i == 0) {
+  //     return false;
+  //   }
+  // }
+
   return true;
 };
